@@ -38,9 +38,9 @@ def fetch_resources(money):
     """
      Display Resources
     """
-    print(f"Water : {resources['water']}")
-    print(f"Milk : {resources['milk']}")
-    print(f"Coffee : {resources['coffee']}")
+    print(f"Water : {resources['water']}ml")
+    print(f"Milk : {resources['milk']}ml")
+    print(f"Coffee : {resources['coffee']}g")
     print(f"Money : ${money}")
 
 def check_resources(choice, money):

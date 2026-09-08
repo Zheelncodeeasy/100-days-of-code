@@ -50,9 +50,5 @@ for _ in range(10):
     hirst_painting.sety(y_pos)
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> ceeed8c5d2ba4574e8b3d27c35b7ccfbb9d7f0be
 my_screen = Screen()
 my_screen.exitonclick()

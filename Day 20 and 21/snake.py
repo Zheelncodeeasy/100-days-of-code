@@ -24,6 +24,13 @@ class Snake:
         new_sq.goto(position)
         self.segments.append(new_sq)
 
+    def reset(self):
+        for seg in self.segments:
+            seg.goto(1000, 1000)
+        self.segments.clear()
+        self.create_snake()
+        self.head = self.segments[0]
+
     def extend_segment(self):
         self.add_segment(self.segments[-1].position()) # extending segments of snake based on position
 
